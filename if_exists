@@ -1,0 +1,5 @@
+IFEXISTS
+
+IF OBJECT_ID('tempdb..#Device') IS NOT NULL
+
+    DROP TABLE #Device
